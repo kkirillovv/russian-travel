@@ -1,0 +1,26 @@
+.footer__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration-line: none;
+  color: #fff;
+  padding: 0 18px 0 0;
+}
+
+@media (max-width: 767px) {
+  .footer__link {
+    width: 186px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration-line: none;
+    color: #fff;
+    padding: 0 0 32px;
+  }
+
+  .footer__link:last-child {
+    padding-bottom: 0;
+  }
+}

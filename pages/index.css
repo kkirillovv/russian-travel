@@ -1,0 +1,76 @@
+/* затем подгружаем нормализацию стилей */
+@import url(../vendor/normalize.css);
+/* подгружаем фонт Inter */
+@import url(../fonts/inter.css);
+/* подгружаем общие стили интерфейса */
+@import url(../blocks/page/page.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/flex-row/flex-row.css);
+@import url(../blocks/flex-column/flex-column.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/website/__url-heading/website__url-heading.css);
+@import url(../blocks/website/__link/website__link.css);
+@import url(../blocks/link-opacity/link-opacity.css);
+
+/* подгружаем стили блока Хедер */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_ru/header__lang-link_ru.css);
+@import url(../blocks/header/__lang-link/_en/header__lang-link_en.css);
+
+/* подгружаем стили блока Lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* подгружаем стили блока Intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
+/* подгружаем стили блока Photo-Grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/_train/photo-grid__item_train.css);
+@import url(../blocks/photo-grid/__item/_atharva-tulsi/photo-grid__item_atharva-tulsi.css);
+@import url(../blocks/photo-grid/__item/_tuman/photo-grid__item_tuman.css);
+@import url(../blocks/photo-grid/__item/_sochi/photo-grid__item_sochi.css);
+@import url(../blocks/photo-grid/__item/_arisa/photo-grid__item_arisa.css);
+@import url(../blocks/photo-grid/__item/_baikal/photo-grid__item_baikal.css);
+@import url(../blocks/photo-grid/__item/_elbrus/photo-grid__item_elbrus.css);
+@import url(../blocks/photo-grid/__item/_kondratiev/photo-grid__item_kondratiev.css);
+@import url(../blocks/photo-grid/__item/_kamchatka-1/photo-grid__item_kamchatka-1.css);
+@import url(../blocks/photo-grid/__item/_kamchatka-2/photo-grid__item_kamchatka-2.css);
+@import url(../blocks/photo-grid/__item/_baikal-2/photo-grid__item_baikal-2.css);
+@import url(../blocks/photo-grid/__item/_ergaki/photo-grid__item_ergaki.css);
+
+/* подгружаем стили блока Places */
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__image/_altai/place__image_altai.css);
+@import url(../blocks/place/__image/_karelia/place__image_karelia.css);
+@import url(../blocks/place/__image/_kolsky/place__image_kolsky.css);
+@import url(../blocks/place/__image/_kosa/place__image_kosa.css);
+@import url(../blocks/place/__image/_winter-baikal/place__image_winter-baikal.css);
+
+/* подгружаем стили блока Cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+
+/* подгружаем стили блока Футер */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);

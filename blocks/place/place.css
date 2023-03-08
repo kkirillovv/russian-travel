@@ -1,0 +1,45 @@
+.place {
+  display: grid;
+  grid-template-columns: minmax(460px, 100%) 484px;
+  grid-template-rows: minmax(76px, 100%) min-content;
+  gap: 48px 40px;
+  grid-gap: 48px 40px;
+/*  grid-template-areas:
+  "title website"
+  "image-about text-about";*/
+  margin: 0 auto;
+  padding: 0 0 80px;
+  overflow: hidden;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}
+
+@media (max-width: 1279px) {
+  .place {
+    grid-template-columns: minmax(440px, 100%) 456px;
+    grid-template-rows: minmax(76px, 100%) min-content;
+    gap: 48px 32px;
+    grid-gap: 48px 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place {
+    grid-template-columns: minmax(340px, 100%) 352px;
+    grid-template-rows: minmax(46px, 100%) min-content;
+    gap: 48px 28px;
+    grid-gap: 48px 28px;
+    padding: 0 0 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: minmax(320px, 100%);    
+    grid-template-rows: repeat(4, min-content);
+    gap: 32px;
+    padding: 0 0 50px;
+  }  
+}

@@ -1,0 +1,21 @@
+.intro__list {
+  width: 720px;
+  height: 90px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 33px 0 0;
+}
+
+@media (max-width: 767px) {
+  .intro__list {
+    width: 288px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 34px 0 0;
+  }
+}

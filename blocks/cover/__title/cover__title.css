@@ -1,0 +1,37 @@
+.cover__title {
+  position: absolute;
+  left: calc(50% - 280px);
+  top: 245px;
+  width: 560px;
+  height: 152px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+@media (max-width: 1280px) {
+  .cover__title {
+    top: 195px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cover__title {
+    top: 115px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__title {
+  left: calc(50% - 120px);
+    top: 33px;
+    width: 240px;
+    height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
