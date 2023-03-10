@@ -17,8 +17,8 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_ru/header__lang-link_ru.css);
-@import url(../blocks/header/__lang-link/_en/header__lang-link_en.css);
+@import url(../blocks/header/__lang-link/_lang/header__lang-link_lang_ru.css);
+@import url(../blocks/header/__lang-link/_lang/header__lang-link_lang_en.css);
 
 /* подгружаем стили блока Lead */
 @import url(../blocks/lead/lead.css);
@@ -56,11 +56,11 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_altai/place__image_altai.css);
-@import url(../blocks/place/__image/_karelia/place__image_karelia.css);
-@import url(../blocks/place/__image/_kolsky/place__image_kolsky.css);
-@import url(../blocks/place/__image/_kosa/place__image_kosa.css);
-@import url(../blocks/place/__image/_winter-baikal/place__image_winter-baikal.css);
+@import url(../blocks/place/__image/_bg/place__image_bg_altai.css);
+@import url(../blocks/place/__image/_bg/place__image_bg_karelia.css);
+@import url(../blocks/place/__image/_bg/place__image_bg_kolsky.css);
+@import url(../blocks/place/__image/_bg/place__image_bg_kosa.css);
+@import url(../blocks/place/__image/_bg/place__image_bg_winter-baikal.css);
 
 /* подгружаем стили блока Cover */
 @import url(../blocks/cover/cover.css);
