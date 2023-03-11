@@ -8,6 +8,7 @@
   opacity: 0.3;
   transition: opacity 0.5s linear;
   color: #fff;
+  text-decoration-line: none;
 }
 
 .cover__overlay:hover {

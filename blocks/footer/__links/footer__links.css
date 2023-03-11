@@ -4,7 +4,7 @@
 
 @media (max-width: 767px) {
   .footer__links {
-    width: 186px;
+    max-width: 186px;
     margin: 64px 0 0;
     flex-wrap: wrap;
   }

@@ -1,6 +1,5 @@
 .place__website {
   width: 456px;
-  height: 46px;
   align-self: flex-end; /*прижали элемент в потоке к низу*/
   margin: 0;
 }

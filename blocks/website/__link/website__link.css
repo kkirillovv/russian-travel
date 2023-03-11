@@ -1,6 +1,5 @@
 .website__link {
-  width: 456px;
-  height: 22px;
+  max-width: 456px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
