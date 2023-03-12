@@ -4,12 +4,8 @@
   grid-template-rows: minmax(76px, 100%) min-content;
   gap: 48px 40px;
   grid-gap: 48px 40px;
-/*  grid-template-areas:
-  "title website"
-  "image-about text-about";*/
   margin: 0 auto;
   padding: 0 0 80px;
-  overflow: hidden;
 }
 
 .place:last-child {

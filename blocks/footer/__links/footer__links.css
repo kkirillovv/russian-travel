@@ -1,11 +1,12 @@
 .footer__links {
+	display: flex;
+  flex-direction: row;
   margin: 92px 0 0;
 }
 
 @media (max-width: 767px) {
   .footer__links {
-    max-width: 186px;
+    flex-direction: column;
     margin: 64px 0 0;
-    flex-wrap: wrap;
   }
 }
