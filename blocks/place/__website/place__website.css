@@ -1,17 +1,17 @@
-.website {
+.place__website {
   width: 456px;
   align-self: flex-end; /*прижали элемент в потоке к низу*/
   margin: 0;
 }
 
 @media (max-width: 1023px) {
-  .website {
+  .place__website {
     width: 352px;
   }
 }
 
 @media (max-width: 767px) {
-  .website {
+  .place__website {
     width: 288px;
     padding-left: 16px;
   }

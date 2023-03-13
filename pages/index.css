@@ -6,10 +6,6 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/list/list.css);
-@import url(../blocks/span-normal/span-normal.css);
-@import url(../blocks/website/website.css);
-@import url(../blocks/website/__url-heading/website__url-heading.css);
-@import url(../blocks/website/__link/website__link.css);
 @import url(../blocks/link-opacity/link-opacity.css);
 
 /* подгружаем стили блока Хедер */
@@ -31,6 +27,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span-normal/intro__span-normal.css);
 
 /* подгружаем стили блока Photo-Grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -42,12 +39,13 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
 
 /* подгружаем стили блока Cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
